@@ -14,7 +14,7 @@ export default function Newsletter() {
       body: new URLSearchParams(formData as any).toString(),
     })
       .then(() => setSubmitted(true))
-      .catch(err => alert('Error submitting form. Please try again.'));
+      .catch(() => alert('Error submitting form. Please try again.'));
   };
 
   if (submitted) {
