@@ -14,7 +14,7 @@ export default function Contact() {
       body: new URLSearchParams(formData as any).toString(),
     })
       .then(() => setSubmitted(true))
-      .catch(err => alert('Error submitting form. Please try again.'));
+      .catch(() => alert('Error submitting form. Please try again.'));
   };
 
   if (submitted) {
@@ -35,7 +35,6 @@ export default function Contact() {
         data-netlify="true"
         onSubmit={handleSubmit}
         className="space-y-4"
-        .catch(() => alert('Error submitting form. Please try again.'));
       >
         <input type="hidden" name="form-name" value="contact" />
         <div>
