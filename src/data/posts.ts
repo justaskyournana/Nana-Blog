@@ -56,6 +56,7 @@ export const posts: Post[] = [
     slug: "fall-activities-with-the-grandkids",
     excerpt: "Six fall crafts my grandchildren and I do every October — foam ornaments, leaf rubbings, no-carve pumpkins — with the kit that makes each one easy.",
     content: "Six fall crafts my grandchildren and I do every October — foam ornaments, leaf rubbings, no-carve pumpkins — with the kit that makes each one easy.",
+    image: "/fall-activities.jpg",
     date: "2026-09-26",
     category: "Family & Grandkids",
     readTime: "5 min read",
