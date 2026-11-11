@@ -7,6 +7,7 @@ export interface Post {
   date: string;
   category: string;
   readTime?: string;
+  image?: string;
 }
 
 export const posts: Post[] = [
