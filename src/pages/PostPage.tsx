@@ -14,7 +14,15 @@ export default function PostPage() {
       <Link to="/blog" className="text-amber-700 text-sm mb-4 inline-block">← Back to blog</Link>
       <div className="text-sm text-stone-500 mb-2">{post.category} · {post.readTime}</div>
       <h1 className="text-4xl font-bold mb-6">{post.title}</h1>
-
+{post.image && (
+  <a href="https://www.amazon.com/shop/influencer-b1911c59/list/2SDO59V5Z0K75?tag=susankroeker-20" target="_blank" rel="noopener noreferrer">
+    <img 
+      src={post.image} 
+      alt={post.title} 
+      className="w-full rounded-lg mb-6 hover:opacity-90 transition" 
+    />
+  </a>
+)}
       {post.slug === "the-microscope-we-all-fought-over" && (
         <video controls className="w-full rounded-lg mb-8">
           <source src="/microscope.mp4" type="video/mp4" />
