@@ -17,7 +17,15 @@ export const posts: Post[] = [
     slug: "gifts-for-grandkids-theyll-actually-use",
     excerpt: "A short list of gifts that have earned a permanent spot at Nana’s house — things the grandkids reach for without being asked.",
     content: `Every year I look for gifts that will actually get used, not just opened and set aside. After years of trial and error (and a house that still has the good ones), these are the things that keep showing up on the kitchen table, the porch, and the living room floor.
-image: "/magnablocks%20photo",
+{post.image && (
+  <a href="https://www.amazon.com/shop/influencer-b1911c59/list/2SDO59V5Z0K75?tag=susankroeker-20" target="_blank" rel="noopener noreferrer">
+    <img 
+      src={post.image} 
+      alt={post.title} 
+      className="w-full rounded-lg mb-6 hover:opacity-90 transition" 
+    />
+  </a>
+)}
 I put the ones that have worked best into one place so you don’t have to hunt.
 
 Shop the full Gifts for Grandkids list on Amazon: https://www.amazon.com/shop/influencer-b1911c59/list/2SDO59V5Z0K75?tag=susankroeker-20
