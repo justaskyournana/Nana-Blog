@@ -12,18 +12,7 @@ export default function PostPage() {
 
   return (
     <>
-      <Helmet>
-        <title>{post.title} | Nana's Table</title>
-        <meta property="og:type" content="article" />
-        <meta property="og:title" content={post.title} />
-        <meta property="og:description" content={post.excerpt} />
-        <meta property="og:url" content={`https://justaskyournana.com/blog/${post.slug}`} />
-        <meta property="article:published_time" content={post.date} />
-        <meta property="article:author" content="Nana" />
-        <meta property="article:section" content={post.category} />
-        {post.image && <meta property="og:image" content={post.image} />}
-        <meta name="description" content={post.excerpt} />
-      </Helmet>
+   
 
       <article className="max-w-3xl mx-auto">
         <Link to="/blog" className="text-amber-700 text-sm mb-4 inline-block">← Back to blog</Link>
