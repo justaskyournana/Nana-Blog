@@ -12,6 +12,31 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    id: "13",
+    title: "Gifts for Grandkids They’ll Actually Use",
+    slug: "gifts-for-grandkids-theyll-actually-use",
+    excerpt: "A short list of gifts that have earned a permanent spot at Nana’s house — things the grandkids reach for without being asked.",
+    content: `Every year I look for gifts that will actually get used, not just opened and set aside. After years of trial and error (and a house that still has the good ones), these are the things that keep showing up on the kitchen table, the porch, and the living room floor.
+
+I put the ones that have worked best into one place so you don’t have to hunt.
+
+Shop the full Gifts for Grandkids list on Amazon: https://www.amazon.com/shop/influencer-b1911c59/list/2SDO59V5Z0K75?tag=susankroeker-20
+
+A few that have earned their keep:
+
+- Sidewalk chalk (the big washable kind) — Hours of quiet on the driveway. It washes off, the colors are bright, and nobody fights over who gets the last piece.
+- Magnetic tiles — They build with these longer than I expect. The cars that come with some sets make it even better.
+- Wooden play food — Simple, sturdy, and it lives in the toy table. The grandkids sort, cut, and “cook” with it almost every visit.
+- Water doodle mat — Perfect for the ones who want to draw but you’re not ready for real markers on the floor.
+
+None of these are fancy. They’re just the ones that get used more than once. If you’re looking for something that won’t end up in a closet, start with the list above.
+
+As an Amazon Associate I earn from qualifying purchases.`,
+    date: "2026-11-16",
+    category: "Product Recommendations",
+    readTime: "4 min read",
+  },
+  {
   id: "1",
   title: "The Microscope We All Fought Over",
   slug: "the-microscope-we-all-fought-over",
