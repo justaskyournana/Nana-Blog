@@ -15,13 +15,18 @@ function App() {
             <div className="text-3xl font-bold text-amber-900">Nana's Table</div>
             <div className="text-xs tracking-widest text-amber-700 uppercase">Warm, Practical Advice That Works</div>
           </Link>
-          <nav className="flex flex-wrap gap-5 text-sm">
-            <NavLink to="/" className={({ isActive }) => isActive ? 'font-semibold text-amber-800' : 'text-stone-700 hover:text-amber-700'}>Home</NavLink>
-            <NavLink to="/blog" className={({ isActive }) => isActive ? 'font-semibold text-amber-800' : 'text-stone-700 hover:text-amber-700'}>Blog</NavLink>
-            <NavLink to="/about" className={({ isActive }) => isActive ? 'font-semibold text-amber-800' : 'text-stone-700 hover:text-amber-700'}>About</NavLink>
-            <NavLink to="/newsletter" className={({ isActive }) => isActive ? 'font-semibold text-amber-800' : 'text-stone-700 hover:text-amber-700'}>Weekly Note</NavLink>
-            <NavLink to="/contact" className={({ isActive }) => isActive ? 'font-semibold text-amber-800' : 'text-stone-700 hover:text-amber-700'}>Contact</NavLink>
-          </nav>
+         <nav className="flex flex-wrap gap-5 text-sm items-center">
+  <NavLink to="/" className={({ isActive }) => isActive ? 'font-semibold text-amber-800' : 'text-stone-700 hover:text-amber-700'}>Home</NavLink>
+  <NavLink to="/blog" className={({ isActive }) => isActive ? 'font-semibold text-amber-800' : 'text-stone-700 hover:text-amber-700'}>Blog</NavLink>
+  <NavLink to="/about" className={({ isActive }) => isActive ? 'font-semibold text-amber-800' : 'text-stone-700 hover:text-amber-700'}>About</NavLink>
+  <NavLink to="/newsletter" className={({ isActive }) => isActive ? 'font-semibold text-amber-800' : 'text-stone-700 hover:text-amber-700'}>Weekly Note</NavLink>
+  <NavLink to="/contact" className={({ isActive }) => isActive ? 'font-semibold text-amber-800' : 'text-stone-700 hover:text-amber-700'}>Contact</NavLink>
+  
+  <span className="text-stone-400">|</span>
+  
+  <a href="https://www.instagram.com/justaskyournana/" target="_blank" rel="noreferrer" className="text-stone-700 hover:text-amber-700">Instagram</a>
+  <a href="https://www.pinterest.com/justaskyournana/" target="_blank" rel="noreferrer" className="text-stone-700 hover:text-amber-700">Pinterest</a>
+</nav>
         </div>
       </header>
 
