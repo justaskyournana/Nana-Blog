@@ -15,7 +15,7 @@ export default function PostPage() {
       <div className="text-sm text-stone-500 mb-2">{post.category} · {post.readTime}</div>
       <h1 className="text-4xl font-bold mb-6">{post.title}</h1>
 {post.image && (
-  <a href="https://www.amazon.com/shop/influencer-b1911c59/list/2SDO59V5Z0K75?tag=susankroeker-20" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.amazon.com/shop/influencer-b1911c59/list/2SDO59V5Z0K75?tag=justaskyournana-20" target="_blank" rel="noopener noreferrer">
     <img 
       src={post.image} 
       alt={post.title} 
