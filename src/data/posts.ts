@@ -20,7 +20,7 @@ export const posts: Post[] = [
 
 I put the ones that have worked best into one place so you don’t have to hunt.
 
-Shop the full Gifts for Grandkids list on Amazon: https://www.amazon.com/shop/influencer-b1911c59/list/2SDO59V5Z0K75?tag=susankroeker-20
+Shop the full Gifts for Grandkids list on Amazon: https://www.amazon.com/shop/influencer-b1911c59/list/2SDO59V5Z0K75?tag=justaskyournana-20
 
 A few that have earned their keep:
 
